@@ -84,7 +84,7 @@ function compile(string, inline) {
         return new Function(compiledSource)
     }
 
-    return function template() {
+    var r = function template() {
         var args
 
         if (arguments.length === 1 && typeof arguments[0] === "object") {
@@ -112,7 +112,13 @@ function compile(string, inline) {
         }
 
         return result.join("")
-    }
+    };
+
+    r.parameters = replacements.map(function(parameter) {
+        return parameter.slice(1,parameter.length-1);
+    });
+
+    return r;
 }
 
 function escape(string) {
