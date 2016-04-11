@@ -1,7 +1,7 @@
 {
-  "name": "string-template",
+  "name": "string-template-plus",
   "version": "1.0.0",
-  "description": "A simple string template function based on named or indexed arguments",
+  "description": "fork from string-template",
   "keywords": [
     "template",
     "string",
@@ -9,18 +9,18 @@
     "replace",
     "arguments"
   ],
-  "author": "Matt-Esch <matt@mattesch.info>",
-  "repository": "git://github.com/Matt-Esch/string-template.git",
+  "author": "shenyu1997@gmail.com",
+  "repository": "git@github.com:js-fullstack/string-template.git",
   "main": "index",
-  "homepage": "https://github.com/Matt-Esch/string-template",
+  "homepage": "git@github.com:js-fullstack/string-template.git",
   "contributors": [
     {
-      "name": "Matt-Esch"
+      "name": "JS FULL Stack"
     }
   ],
   "bugs": {
-    "url": "https://github.com/Matt-Esch/string-template/issues",
-    "email": "matt@mattesch.info"
+    "url": "",
+    "email": "shenyu1997@gmail.com"
   },
   "dependencies": {},
   "devDependencies": {
